@@ -59,7 +59,7 @@ endAt			|String		|必需，团购结束时间，时间格式采用 [ISO 8601][IS
 expiresAt		|String		|团购的商品过期，时间格式采用 [ISO 8601][ISO_8601]
 price			|Number		|必需，团购价格	
 value			|Number		|必需，商品实际价格	
-postRequired		|Boolean	|是否需要邮寄，默认步需要
+postRequired		|Boolean	|是否需要邮寄，默认不需要
 divisionName		|String		|必需，团购区域名称（国内城市名称）
 merchantName		|String		|必需，团购提供商名称
 locations		|Array		|重要，网站默认按照位置排序
