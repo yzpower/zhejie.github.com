@@ -1,0 +1,135 @@
+body {
+	font-size: 12px;
+	font-family: "Helvetica,Arial,FreeSans";
+	color: #333;
+}
+
+a { color: #4183C4; }
+
+.clearfix:after{
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clearfix{
+	display: inline-block;
+}
+.clearfix{
+	display: block;
+}
+* html .clearfix{
+	height: 1%;
+}
+
+#header {
+}
+
+#header h2 { 
+	width: 700px; 
+	margin: 10px auto; 
+}
+#header h2 a{ 
+	color: #000; 
+	font-size: 36px; 
+	text-decoration: none;
+}
+
+#header h2 a em{ 
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+#content {
+	width: 700px; 
+	margin: 0 auto; 
+}
+
+#content h1{
+	font-size: 20px;
+	margin: 2em 0 1em;
+}
+
+#sidebar{
+	display: none;
+	float: left;
+	width: 216px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border-right: 4px solid #E6E6E6;
+}
+#sidebar li{
+	padding: 2px 6px;
+}
+
+#widebar{
+	/*
+	float: right;
+	width: 700px;
+	*/
+}
+
+.footer { 
+	width: 700px; 
+	margin: 0 auto; 
+	text-align:left; 
+	padding-top:30px; 
+	font-style: italic; 
+}
+
+.wikistyle h1{
+	display: none;
+}
+
+
+#loc{
+	background: white;
+	padding: 1px 10px;
+}
+
+#loc h3{
+	margin: 10px 0;
+}
+#loc .col{
+	margin: 10px 0;
+}
+
+#map-canvas{
+	height: 400px;
+	width: 500px;
+}
+
+#geo-wrap, #geo{
+	padding-left: 5px;
+}
+
+#search-addr{
+	width: 200px;
+}
+#loc-city{
+	width: 90px;
+}
+#loc-addr{
+	width: 260px;
+}
+.ui-autocomplete {
+	background-color: white;
+	width: 180px;
+	border: 1px solid #cfcfcf;
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.ui-menu-item a{
+	display: block;
+	padding: 2px 3px;
+}
+.ui-autocomplete .ui-state-hover{
+	background: #0060BF;
+	color: white;
+}
+

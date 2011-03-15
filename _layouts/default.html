@@ -1,0 +1,41 @@
+---
+sidebar_cats:
+- 数据采集接口
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>开发者.折街 - {{ page.title }}</title>
+		<link rel="stylesheet" href="/css/style.css" type="text/css" media="screen" charset="utf-8"/>
+		<link rel="stylesheet" href="/css/wikistyle.css" type="text/css" media="screen" charset="utf-8"/>
+	</head>
+	<body>
+		<a href="http://github.com/zhejie"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+		<div id="header">
+			<h2><a href="/">折街<em>开发者</em></a></h2>
+		</div>
+		<div id="content" class="clearfix">
+			<ul id="sidebar">
+				{% for post in site.posts reversed %}
+				{% if page.title == post.title %}
+				<li>{{ page.title }}</li>
+				{% else %}
+				<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+				{% endif %}
+				{% endfor %}
+			</ul>
+			<div id="widebar">
+				<h1>{{ page.title }}</h1>
+				<div class="wikistyle">
+					{{ content }}
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<a href="http://www.zhejie.com">&copy; 2011 折街</a>
+		</div>
+	</body>
+</html>
