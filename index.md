@@ -7,6 +7,7 @@ title: 团购数据收录接口
 
 折街网专注于团购位置等服务，请提供准确的位置经纬度信息，地图定位可使用 [地址定位工具](/map/)
 
+数据中不支持html代码
 
 ###数据示例
 
@@ -18,9 +19,9 @@ title: 团购数据收录接口
 		"quantity": 0,
 		"url": "http://www.meituan.com/beijing/deal/bjlth.html",
 		"smallImageUrl": "http://p1.meituan.com/deal/201012/30/lthbxj00.jpg", //5:3 120x72
-		"mediumImageUrl": "http://p1.meituan.com/deal/201012/30/lthbxj00.jpg",//200x120 手机访问
+		"mediumImageUrl": "http://p1.meituan.com/deal/201012/30/lthbxj00.jpg",//200x120 
 		"largeImageUrl": "http://p1.meituan.com/deal/201012/30/lthbxj00.jpg",//440x264
-		"tippedAt": "2010-09-24T14:19:15Z", //最低团购
+		"tippedAt": "2010-09-24T14:19:15Z",
 		"tippingPoint": "400",
 		"isTipped": true,
 		"startAt": "2010-09-24T05:04:00Z",
@@ -29,11 +30,11 @@ title: 团购数据收录接口
 		"price": 200,
 		"value": 500,
 		"description": "",
-		"postRequired": false, //是否邮寄
+		"postRequired": false,
 		"divisionName": "北京", //国内城市名
 		"merchantName": "龙潭湖公园",
 		"locations":[{name: "崇文龙潭湖公园", "address": "北京市崇文区福光路三号", "lat": 39.904667, "lng": 116.408198, "tel": "010-12345678", "mobile": "138123456789"}],
-		"category": "餐饮美食", //分类
+		"category": "餐饮美食"
 	}]
 
 
