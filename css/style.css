@@ -2,6 +2,7 @@ body {
 	font-size: 12px;
 	font-family: "Helvetica,Arial,FreeSans";
 	color: #333;
+	margin: 0;
 }
 
 a { color: #4183C4; }
@@ -26,11 +27,13 @@ a { color: #4183C4; }
 }
 
 #header {
-}
-
-#header h2 { 
 	width: 700px; 
 	margin: 10px auto; 
+}
+
+#header .home { 
+	margin-top: 24px;
+	float: right;
 }
 #header h2 a{ 
 	color: #000; 
