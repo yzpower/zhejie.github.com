@@ -33,6 +33,7 @@ title: 团购数据收录接口
 		"postRequired": false,
 		"divisionName": "北京", 
 		"merchantName": "龙潭湖公园",
+		"merchantUrl": "http://www.lthgy.com",
 		"locations":[{name: "崇文龙潭湖公园", "address": "北京市崇文区福光路三号", "lat": 39.904667, "lng": 116.408198, "tel": "010-12345678", "mobile": "138123456789"}],
 		"category": "餐饮美食"
 	}]
