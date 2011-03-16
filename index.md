@@ -5,7 +5,7 @@ title: 团购数据收录接口
 
 折街网提供第三方团购网站数据收录，数据格式为[JSON][json]，如有中文但未经unicode转换的，请采用utf8编码
 
-折街网专注于团购位置等服务，请提供准确的位置经纬度信息，地图定位可使用 [地址定位工具](/map/)
+折街网专注于团购位置等服务，请提供准确的位置经纬度信息。由于各大地图提供商之间的经纬度有误差，我们暂时采用从[google地图](http://ditu.google.cn)获得的经纬度，地图定位可使用 [地址定位工具](/map/)
 
 数据中不支持html代码
 
@@ -63,6 +63,7 @@ details			|String		|备注资料(多条可使用回车换行)
 postRequired		|Boolean	|是否需要邮寄，默认不需要
 divisionName		|String		|必需，团购区域名称（国内城市名称）
 merchantName		|String		|必需，团购提供商名称
+merchantUrl		|String		|团购提供商网址
 locations		|Array		|重要，网站默认按照位置排序
 category		|String		|分类，(餐饮美食,休闲娱乐,美容化妆,网上购物,运动健身,抽奖)	
 
