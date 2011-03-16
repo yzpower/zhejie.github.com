@@ -22,7 +22,7 @@ title: 团购数据收录接口
 		"mediumImageUrl": "http://p1.meituan.com/deal/201012/30/lthbxj00.jpg",//200x120 
 		"largeImageUrl": "http://p1.meituan.com/deal/201012/30/lthbxj00.jpg",//440x264
 		"tippedAt": "2010-09-24T14:19:15Z",
-		"tippingPoint": "400",
+		"tippingPoint": 400,
 		"isTipped": true,
 		"startAt": "2010-09-24T05:04:00Z",
 		"endAt": "2010-09-27T04:59:00Z",
