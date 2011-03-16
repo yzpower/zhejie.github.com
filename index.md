@@ -29,9 +29,9 @@ title: 团购数据收录接口
 		"expiresAt": "2011-03-28T04:59:00Z",
 		"price": 200,
 		"value": 500,
-		"description": "",
+		"details": "有效期3个月，截止至2011年5月16日; 营业时间：10:00-21:30; 请务必提前1天致电预约;",
 		"postRequired": false,
-		"divisionName": "北京", //国内城市名
+		"divisionName": "北京", 
 		"merchantName": "龙潭湖公园",
 		"locations":[{name: "崇文龙潭湖公园", "address": "北京市崇文区福光路三号", "lat": 39.904667, "lng": 116.408198, "tel": "010-12345678", "mobile": "138123456789"}],
 		"category": "餐饮美食"
@@ -44,7 +44,6 @@ title: 团购数据收录接口
 ------------------------|---------------|-----------
 id			|String		|必需，团购唯一ID
 title			|String		|必需，团购显示标题(140字内)
-description		|String		|商品描述，备注
 isSoldOut		|Boolean	|必需，是否已售完	
 soldQuantity		|Number		|必需，卖出数量	
 quantity		|Number		|必需，商品总量，无限量为0	
@@ -60,6 +59,7 @@ endAt			|String		|必需，团购结束时间，时间格式采用 [ISO 8601][IS
 expiresAt		|String		|团购的商品过期，时间格式采用 [ISO 8601][ISO_8601]
 price			|Number		|必需，团购价格	
 value			|Number		|必需，商品实际价格	
+details			|String		|备注资料(多条可使用回车换行)
 postRequired		|Boolean	|是否需要邮寄，默认不需要
 divisionName		|String		|必需，团购区域名称（国内城市名称）
 merchantName		|String		|必需，团购提供商名称
