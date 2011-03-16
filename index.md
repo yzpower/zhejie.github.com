@@ -65,7 +65,7 @@ divisionName		|String		|必需，团购区域名称（国内城市名称）
 merchantName		|String		|必需，团购提供商名称
 merchantUrl		|String		|团购提供商网址
 locations		|Array		|重要，网站默认按照位置排序
-category		|String		|分类，(餐饮美食,休闲娱乐,美容化妆,网上购物,运动健身,抽奖)	
+category		|String		|分类: 餐饮美食,休闲娱乐,教育培训,旅游酒店,美容保健,医疗健康,便民服务,车辆服务,网上购物,开心抽奖。[分类信息参考口碑网](http://bendi.koubei.com/beijing/searchstore)	
 
 ###位置字段说明
 
