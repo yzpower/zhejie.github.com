@@ -78,7 +78,7 @@ a { color: #4183C4; }
 
 .footer { 
 	width: 700px; 
-	margin: 0 auto; 
+	margin: 0 auto 20px; 
 	text-align:left; 
 	padding-top:30px; 
 	font-style: italic; 
