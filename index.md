@@ -94,7 +94,7 @@ category		|String		|分类: 餐饮美食,休闲娱乐,运动健身,教育培训,
 name			|String		|如果有位置必填，实际地址或名称(提供页面显示)
 address			|String		|如果有位置必填，Google地图标准地址(用于地图搜索)
 lat			|Number		|如果有位置必填，纬度，来自google maps [地址定位工具](/map/)
-lng			|Number		|如果有位置必填，精度，来自google maps [地址定位工具](/map/)
+lng			|Number		|如果有位置必填，经度，来自google maps [地址定位工具](/map/)
 msid			|String		|如是自己创建的不公开地图位置需要提供地图链接中的msid参数
 tel			|String		|固定电话
 mobile			|String		|移动电话
