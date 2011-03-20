@@ -35,7 +35,7 @@ function buildLoc() {
 	}
 
 	function round (num) {
-		return Math.round(num*10000000)/10000000;
+		return Math.round(num*1E13)/1E13;
 	}
 }
 $(buildLoc);
