@@ -5,7 +5,7 @@ title: 团购数据收录接口
 
 折街网提供第三方团购网站数据收录，数据格式为[JSON][json]，一般JSON库会将中文内容转换成unicode，可以忽略编码问题。未经unicode转换的，请采用utf8编码
 
-折街网专注于团购位置等服务，请提供准确的位置经纬度信息。由于各大地图提供商之间的经纬度有误差，我们暂时采用从[google地图](http://ditu.google.cn)获得的经纬度，地图定位可使用 [地址定位工具](/map/)
+折街网专注于团购位置等服务，请提供准确的位置经纬度信息。由于各大地图提供商之间的经纬度有误差，我们暂时采用从[google地图](http://ditu.google.cn)获得的经纬度，[经纬度获取方法查看这里](/latlng/)。
 
 数据中不支持html代码
 
@@ -41,7 +41,7 @@ title: 团购数据收录接口
 				"address": "北京市丰台区东铁营215号", 
 				"lat": 39.904667, 
 				"lng": 116.408198, 
-				"msid": "204433898138981275802.00049ebe9a5d539b83f1d", 
+				"mapUrl": "http://ditu.google.cn/maps/ms?ie=UTF8&hl=zh-CN&msa=0&msid=204433898138981275802.00049ebe9a5d539b83f1d&brcurrent=3,0x31508e64e5c642c1:0x951daa7c349f366f,1%3B5,0,1&ll=39.856124,116.420231&spn=0.038084,0.055189&z=14&iwloc=00049ebe9ecb8ebf8e663", 
 				"tel": "010-12345678", 
 				"mobile": "138123456789"
 			},
@@ -50,7 +50,7 @@ title: 团购数据收录接口
 				"address": "北京市丰台区蒲安里4号楼", 
 				"lat": 39.904667, 
 				"lng": 116.408198, 
-				"msid": "204433898138981275802.00049ebe9a5d539b83f1d",
+				"mapUrl": "http://ditu.google.cn/maps/ms?ie=UTF8&hl=zh-CN&msa=0&msid=204433898138981275802.00049ebe9a5d539b83f1d&brcurrent=3,0x31508e64e5c642c1:0x951daa7c349f366f,1%3B5,0,1&ll=39.856124,116.420231&spn=0.038084,0.055189&z=14&iwloc=00049ebe9ecb8ebf8e663", 
 				"tel": "010-12345678", 
 				"mobile": "138123456789"
 			}
@@ -93,9 +93,9 @@ locations		|Array		|重要，位置，可有多个，网站默认按照位置远
 ------------------------|---------------|-----------
 name			|String		|如果有位置必填，实际地址或名称(提供页面显示)
 address			|String		|如果有位置必填，Google地图标准地址(用于地图搜索)
-lat			|Number		|如果有位置必填，纬度，来自google maps [地址定位工具](/map/)
-lng			|Number		|如果有位置必填，经度，来自google maps [地址定位工具](/map/)
-msid			|String		|如是自己创建的不公开地图位置需要提供地图链接中的msid参数
+mapUrl			|String		|google地图分享链接，[查看分享链接获得方法](/latlng/#link)
+lat			|Number		|如果有位置必填，纬度，[查看获取方法](/latlng/)
+lng			|Number		|如果有位置必填，经度
 tel			|String		|固定电话
 mobile			|String		|移动电话
 
