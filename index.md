@@ -67,7 +67,7 @@ title			|String		|必需，团购显示标题(140字内)
 isSoldOut		|Boolean	|必需，是否已售完	
 soldQuantity		|Number		|必需，卖出数量	
 quantity		|Number		|必需，商品总量，无限量为0	
-url			|String		|必需，商品链接
+url			|String		|必需，此商品链接，采用商品唯一链接
 smallImageUrl		|String		|小图片地址(约120x72像素)
 mediumImageUrl		|String		|必需，一般图片地址(约200x120像素，供手机显示)
 largeImageUrl		|String		|必需，大图片地址(约440x264像素，供电脑终端显示)
