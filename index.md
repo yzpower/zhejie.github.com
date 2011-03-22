@@ -91,11 +91,12 @@ locations		|Array		|重要，位置，可有多个，网站默认按照位置远
 
 属性			|类型		|描述	
 ------------------------|---------------|-----------
-name			|String		|如果有位置必填，实际地址或名称(提供页面显示)
+name			|String		|如果有位置必填，分店名称或实际地址(提供页面显示)
 address			|String		|如果有位置必填，Google地图标准地址(用于地图搜索)
-mapUrl			|String		|google地图分享链接，[查看分享链接获得方法](/latlng/#link)
 lat			|Number		|如果有位置必填，纬度，[查看获取方法](/latlng/)
 lng			|Number		|如果有位置必填，经度
+mapUrl			|String		|google地图分享链接，[查看分享链接获得方法](/latlng/#link)
+dpShopId		|String		|团购商家的大众点评shopid
 tel			|String		|固定电话
 mobile			|String		|移动电话
 
