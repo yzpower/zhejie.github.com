@@ -33,8 +33,8 @@ title: 团购数据收录接口
 		"details": "有效期3个月， 2011.3.22 至 2011.6.22;营业时间：10:30-22:00;请至少提前1天致电预约",
 		"postRequired": false,
 		"divisionName": "北京", 
-		"merchantName": "龙潭湖公园",
-		"merchantUrl": "http://www.lthgy.com",
+		"merchantName": "嘉佳羊蝎子",
+		"merchantUrl": "http://www.jjyxz.com",
 		"locations":[
 			{
 				name: "嘉佳羊蝎子（刘家窑店）", 
@@ -42,6 +42,7 @@ title: 团购数据收录接口
 				"lat": 39.904667, 
 				"lng": 116.408198, 
 				"mapUrl": "http://ditu.google.cn/maps/ms?ie=UTF8&hl=zh-CN&msa=0&msid=204433898138981275802.00049ebe9a5d539b83f1d&brcurrent=3,0x31508e64e5c642c1:0x951daa7c349f366f,1%3B5,0,1&ll=39.856124,116.420231&spn=0.038084,0.055189&z=14&iwloc=00049ebe9ecb8ebf8e663", 
+				"dpShopId": "4562008",
 				"tel": "010-12345678", 
 				"mobile": "138123456789"
 			},
@@ -51,6 +52,7 @@ title: 团购数据收录接口
 				"lat": 39.904667, 
 				"lng": 116.408198, 
 				"mapUrl": "http://ditu.google.cn/maps/ms?ie=UTF8&hl=zh-CN&msa=0&msid=204433898138981275802.00049ebe9a5d539b83f1d&brcurrent=3,0x31508e64e5c642c1:0x951daa7c349f366f,1%3B5,0,1&ll=39.856124,116.420231&spn=0.038084,0.055189&z=14&iwloc=00049ebe9ecb8ebf8e663", 
+				"dpShopId": "3632377",
 				"tel": "010-12345678", 
 				"mobile": "138123456789"
 			}
@@ -91,7 +93,7 @@ locations		|Array		|重要，位置，可有多个，网站默认按照位置远
 
 属性			|类型		|描述	
 ------------------------|---------------|-----------
-name			|String		|如果有位置必填，分店名称或实际地址(提供页面显示)
+name			|String		|如果有位置必填，店铺名称，分店名称，名称参考[点评网](http://www.dianping.com)
 address			|String		|如果有位置必填，Google地图标准地址(用于地图搜索)
 lat			|Number		|如果有位置必填，纬度，[查看获取方法](/latlng/)
 lng			|Number		|如果有位置必填，经度
