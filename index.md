@@ -23,12 +23,12 @@ title: 团购数据收录接口
 		"smallImageUrl": "http://p1.meituan.com/deal/201012/30/lthbxj00.jpg", //5:3 120x72
 		"mediumImageUrl": "http://p1.meituan.com/deal/201012/30/lthbxj00.jpg",//200x120 
 		"largeImageUrl": "http://p1.meituan.com/deal/201012/30/lthbxj00.jpg",//440x264
-		"tippedAt": "2010-09-24 14:19:15",
+		"tippedAt": "1301147806",
 		"tippingPoint": 400,
 		"isTipped": true,
-		"startAt": "2010-09-24 05:04:00",
-		"endAt": "2010-09-27 04:59:00",
-		"expiresAt": "2011-03-28 04:59:00",
+		"startAt": "1301149806",
+		"endAt": "1301147806",
+		"expiresAt": "1301157806",
 		"price": 200,
 		"value": 500,
 		"details": "有效期3个月， 2011.3.22 至 2011.6.22;营业时间：10:30-22:00;请至少提前1天致电预约",
