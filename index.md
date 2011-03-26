@@ -23,12 +23,12 @@ title: 团购数据收录接口
 		"smallImageUrl": "http://p1.meituan.com/deal/201012/30/lthbxj00.jpg", //5:3 120x72
 		"mediumImageUrl": "http://p1.meituan.com/deal/201012/30/lthbxj00.jpg",//200x120 
 		"largeImageUrl": "http://p1.meituan.com/deal/201012/30/lthbxj00.jpg",//440x264
-		"tippedAt": "2010-09-24T14:19:15Z",
+		"tippedAt": "2010-09-24 14:19:15",
 		"tippingPoint": 400,
 		"isTipped": true,
-		"startAt": "2010-09-24T05:04:00Z",
-		"endAt": "2010-09-27T04:59:00Z",
-		"expiresAt": "2011-03-28T04:59:00Z",
+		"startAt": "2010-09-24 05:04:00",
+		"endAt": "2010-09-27 04:59:00",
+		"expiresAt": "2011-03-28 04:59:00",
 		"price": 200,
 		"value": 500,
 		"details": "有效期3个月， 2011.3.22 至 2011.6.22;营业时间：10:30-22:00;请至少提前1天致电预约",
@@ -77,11 +77,11 @@ smallImageUrl		|String		|小图片地址(约120x72像素)
 mediumImageUrl		|String		|必需，一般图片地址(约200x120像素，供手机显示)
 largeImageUrl		|String		|必需，大图片地址(约440x264像素，供电脑终端显示)
 isTipped		|Boolean	|是否超过最低团购数
-tippedAt		|String		|超过最低团购数时间，时间格式采用 [ISO 8601][ISO_8601]
+tippedAt		|String		|超过最低团购数时间
 tippingPoint		|Number		|最低团购数量
-startAt			|String		|必需，团购开始时间，时间格式采用 [ISO 8601][ISO_8601]
-endAt			|String		|必需，团购结束时间，时间格式采用 [ISO 8601][ISO_8601]
-expiresAt		|String		|团购的商品过期，时间格式采用 [ISO 8601][ISO_8601]
+startAt			|String		|必需，团购开始时间
+endAt			|String		|必需，团购结束时间
+expiresAt		|String		|团购的商品过期
 price			|Number		|必需，团购价格	
 value			|Number		|必需，商品实际价格	
 details			|String		|备注资料(多条可使用回车换行)
