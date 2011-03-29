@@ -13,6 +13,7 @@ title: 团购数据收录接口
 
 	[{
 		"id": "bjwe",
+		"divisionName": "北京", 
 		"title": "仅售58元！原价130元的嘉佳羊蝎子双人套餐（小锅羊蝎子+香菇+面片+多种菜品任选5份+自制酸梅汤）。蒲安里/刘家窑两店通用。和美味的羊蝎子相比，吃相又算什么？",
 		"category": "餐饮美食",
 		"isSoldOut": false,
@@ -33,7 +34,6 @@ title: 团购数据收录接口
 		"value": 500,
 		"details": "有效期3个月， 2011.3.22 至 2011.6.22;营业时间：10:30-22:00;请至少提前1天致电预约",
 		"postRequired": false,
-		"divisionName": "北京", 
 		"merchantName": "嘉佳羊蝎子",
 		"merchantUrl": "http://www.jjyxz.com",
 		"locations":[
@@ -66,6 +66,7 @@ title: 团购数据收录接口
 属性			|类型		|描述	
 ------------------------|---------------|-----------
 id			|String		|必需，团购唯一ID
+divisionName		|String		|必需，团购区域名称（国内城市名称，网购类可写"全国"）
 title			|String		|必需，团购显示标题(140字内)
 category		|String		|分类: 餐饮美食,休闲娱乐,运动健身,教育培训,旅游酒店,美容保健,医疗健康,便民服务,车辆服务,网上购物,开心抽奖。[分类信息参考口碑网](http://bendi.koubei.com/beijing/searchstore)	
 isSoldOut		|Boolean	|必需，是否已售完	
@@ -86,7 +87,6 @@ price			|Number		|必需，团购价格
 value			|Number		|必需，商品实际价格	
 details			|String		|备注资料(多条可使用回车换行)
 postRequired		|Boolean	|是否需要邮寄，默认不需要
-divisionName		|String		|必需，团购区域名称（国内城市名称，网购类可写"全国"）
 merchantName		|String		|必需，团购提供商名称
 merchantUrl		|String		|团购提供商网址
 locations		|Array		|重要，位置，可有多个，网站默认按照位置远近排序，网购类可以不填(将在分类和搜索中显示)
@@ -95,7 +95,7 @@ locations		|Array		|重要，位置，可有多个，网站默认按照位置远
 
 属性			|类型		|描述	
 ------------------------|---------------|-----------
-name			|String		|如果有位置必填，店铺名称，分店名称，名称参考[点评网](http://www.dianping.com)
+name			|String		|如果有位置必填，店铺名称(分店名称)，名称参考[点评网](http://www.dianping.com)
 address			|String		|如果有位置必填，Google地图标准地址(用于地图搜索)
 lat			|Number		|如果有位置必填，纬度，[查看获取方法](/latlng/)
 lng			|Number		|如果有位置必填，经度
