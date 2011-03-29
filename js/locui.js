@@ -30,7 +30,7 @@ locUI.parseCityName = function(addr) {
 	addr = addr["address_components"];
 	for (var j = addr.length - 1; j >= 0; j--) {
 		city = addr[j];
-		if( city.types.indexOf( "locality" ) != -1 ) {
+		if( city.types[0] == "locality" ) {
 			return city.short_name;
 		}
 	};
