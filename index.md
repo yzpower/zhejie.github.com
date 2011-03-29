@@ -10,55 +10,58 @@ title: 团购数据收录接口
 数据中不支持html代码
 
 ###数据示例 [查看字段描述](#desc)
+	
+	{
+	  "deals": [{
+			"id": "bjwe",
+			"divisionName": "北京", 
+			"title": "仅售58元！原价130元的嘉佳羊蝎子双人套餐（小锅羊蝎子+香菇+面片+多种菜品任选5份+自制酸梅汤）。蒲安里/刘家窑两店通用。和美味的羊蝎子相比，吃相又算什么？",
+			"category": "餐饮美食",
+			"isSoldOut": false,
+			"soldQuantity": 120,
+			"quantity": 0,
+			"url": "http://bj.meituan.com/deal/253724.html",
+			"siteUrl": "http://bj.meituan.com",
+			"smallImageUrl": "http://p1.meituan.com/deal/201012/30/lthbxj00.jpg", //5:3 120x72
+			"mediumImageUrl": "http://p1.meituan.com/deal/201012/30/lthbxj00.jpg",//200x120 
+			"largeImageUrl": "http://p1.meituan.com/deal/201012/30/lthbxj00.jpg",//440x264
+			"tippedAt": "1301147806",
+			"tippingPoint": 400,
+			"isTipped": true,
+			"startAt": "1301149806",
+			"endAt": "1301147806",
+			"expiresAt": "1301157806",
+			"price": 200,
+			"value": 500,
+			"details": "有效期3个月， 2011.3.22 至 2011.6.22;营业时间：10:30-22:00;请至少提前1天致电预约",
+			"postRequired": false,
+			"merchantName": "嘉佳羊蝎子",
+			"merchantUrl": "http://www.jjyxz.com",
+			"locations":[
+				{
+					name: "嘉佳羊蝎子(刘家窑店)", 
+					"address": "北京市丰台区东铁营215号", 
+					"lat": 39.904667, 
+					"lng": 116.408198, 
+					"mapUrl": "http://ditu.google.cn/maps/ms?ie=UTF8&hl=zh-CN&msa=0&msid=204433898138981275802.00049ebe9a5d539b83f1d&brcurrent=3,0x31508e64e5c642c1:0x951daa7c349f366f,1%3B5,0,1&ll=39.856124,116.420231&spn=0.038084,0.055189&z=14&iwloc=00049ebe9ecb8ebf8e663", 
+					"dpShopId": "4562008",
+					"tel": "010-12345678", 
+					"mobile": "138123456789"
+				},
+				{
+					name: "嘉佳羊蝎子(蒲安里店)", 
+					"address": "北京市丰台区蒲安里4号楼", 
+					"lat": 39.904667, 
+					"lng": 116.408198, 
+					"mapUrl": "http://ditu.google.cn/maps/ms?ie=UTF8&hl=zh-CN&msa=0&msid=204433898138981275802.00049ebe9a5d539b83f1d&brcurrent=3,0x31508e64e5c642c1:0x951daa7c349f366f,1%3B5,0,1&ll=39.856124,116.420231&spn=0.038084,0.055189&z=14&iwloc=00049ebe9ecb8ebf8e663", 
+					"dpShopId": "3632377",
+					"tel": "010-12345678", 
+					"mobile": "138123456789"
+				}
+			]
+		}]
+	}
 
-	[{
-		"id": "bjwe",
-		"divisionName": "北京", 
-		"title": "仅售58元！原价130元的嘉佳羊蝎子双人套餐（小锅羊蝎子+香菇+面片+多种菜品任选5份+自制酸梅汤）。蒲安里/刘家窑两店通用。和美味的羊蝎子相比，吃相又算什么？",
-		"category": "餐饮美食",
-		"isSoldOut": false,
-		"soldQuantity": 120,
-		"quantity": 0,
-		"url": "http://bj.meituan.com/deal/253724.html",
-		"siteUrl": "http://bj.meituan.com",
-		"smallImageUrl": "http://p1.meituan.com/deal/201012/30/lthbxj00.jpg", //5:3 120x72
-		"mediumImageUrl": "http://p1.meituan.com/deal/201012/30/lthbxj00.jpg",//200x120 
-		"largeImageUrl": "http://p1.meituan.com/deal/201012/30/lthbxj00.jpg",//440x264
-		"tippedAt": "1301147806",
-		"tippingPoint": 400,
-		"isTipped": true,
-		"startAt": "1301149806",
-		"endAt": "1301147806",
-		"expiresAt": "1301157806",
-		"price": 200,
-		"value": 500,
-		"details": "有效期3个月， 2011.3.22 至 2011.6.22;营业时间：10:30-22:00;请至少提前1天致电预约",
-		"postRequired": false,
-		"merchantName": "嘉佳羊蝎子",
-		"merchantUrl": "http://www.jjyxz.com",
-		"locations":[
-			{
-				name: "嘉佳羊蝎子(刘家窑店)", 
-				"address": "北京市丰台区东铁营215号", 
-				"lat": 39.904667, 
-				"lng": 116.408198, 
-				"mapUrl": "http://ditu.google.cn/maps/ms?ie=UTF8&hl=zh-CN&msa=0&msid=204433898138981275802.00049ebe9a5d539b83f1d&brcurrent=3,0x31508e64e5c642c1:0x951daa7c349f366f,1%3B5,0,1&ll=39.856124,116.420231&spn=0.038084,0.055189&z=14&iwloc=00049ebe9ecb8ebf8e663", 
-				"dpShopId": "4562008",
-				"tel": "010-12345678", 
-				"mobile": "138123456789"
-			},
-			{
-				name: "嘉佳羊蝎子(蒲安里店)", 
-				"address": "北京市丰台区蒲安里4号楼", 
-				"lat": 39.904667, 
-				"lng": 116.408198, 
-				"mapUrl": "http://ditu.google.cn/maps/ms?ie=UTF8&hl=zh-CN&msa=0&msid=204433898138981275802.00049ebe9a5d539b83f1d&brcurrent=3,0x31508e64e5c642c1:0x951daa7c349f366f,1%3B5,0,1&ll=39.856124,116.420231&spn=0.038084,0.055189&z=14&iwloc=00049ebe9ecb8ebf8e663", 
-				"dpShopId": "3632377",
-				"tel": "010-12345678", 
-				"mobile": "138123456789"
-			}
-		]
-	}]
 
 <div name="desc" id="desc"></div>
 ###团购字段说明
