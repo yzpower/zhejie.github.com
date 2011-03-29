@@ -93,12 +93,14 @@ locations		|Array		|重要，位置，可有多个，网站默认按照位置远
 
 ###位置参数说明
 
+由于折街网默认通过位置排序商品，没有位置信息的商品将被排在最后或者不显示，所以提供准确的位置以及经纬度很重要，如果搜集商家经纬度信息存在难度，请提供该店在点评网的id，或者准确的店铺名称。名称参考[点评网](http://www.dianping.com)，比如：嘉佳羊蝎子(蒲安里店)
+
 属性			|类型		|描述	
 ------------------------|---------------|-----------
 name			|String		|如果有位置必填，店铺名称(分店名称)，名称参考[点评网](http://www.dianping.com)
 address			|String		|如果有位置必填，Google地图标准地址(用于地图搜索)
-lat			|Number		|如果有位置必填，纬度，[查看获取方法](/latlng/)
-lng			|Number		|如果有位置必填，经度
+lat			|Number		|重要，纬度，[查看获取方法](/latlng/)
+lng			|Number		|重要，经度
 mapUrl			|String		|google地图分享链接，[查看分享链接获得方法](/latlng/#link)
 dpShopId		|String		|团购商家的大众点评shopid
 tel			|String		|固定电话
