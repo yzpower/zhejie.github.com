@@ -11,9 +11,9 @@ title: 团购数据收录接口
 
 ###提交数据接口
 
-由于含有准确地理位置的团购信息才能在折街网上显示，暂不接受网购类团购数据。有关数据接口的问题可以发邮件到 hi@zhejie.com 交流。
+由于含有准确地理位置的团购信息才能在折街网上显示，暂不接受网购类团购数据。有关数据接口的问题可以发邮件到 [hi@zhejie.com](mailto:hi@zhejie.com) 交流。
 
-数据接口准备好后到[这里申请](http://zhejie.wufoo.com/forms/ece/)
+数据接口准备好后到 [这里申请](http://zhejie.wufoo.com/forms/ece/)
 
 ###数据示例 [查看字段描述](#desc)
 	
