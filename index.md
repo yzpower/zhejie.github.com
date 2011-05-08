@@ -84,7 +84,7 @@ quantity		|Number		|必需，商品总量，无限量为0
 url			|String		|必需，此商品链接，采用商品唯一链接
 siteUrl			|String		|该商品所链接的分站地址，没有则默认为网站首页地址
 smallImageUrl		|String		|小图片地址(约120x72像素)
-mediumImageUrl		|String		|必需，一般图片地址(约200x120像素，供手机显示)
+mediumImageUrl		|String		|必需，一般图片地址(约200x120像素，供iphone等手机设备显示)
 largeImageUrl		|String		|必需，大图片地址(约440x264像素，供电脑终端显示)
 isTipped		|Boolean	|是否超过最低团购数
 tippedAt		|String		|超过最低团购数时间
