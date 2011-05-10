@@ -3,7 +3,7 @@ layout: default
 title: 团购数据收录接口
 ---
 
-折街网提供第三方团购网站数据收录，数据格式为[JSON][json]，一般JSON库会将中文内容转换成unicode，可以忽略编码问题。未经unicode转换的，请采用utf8编码
+折街网提供第三方团购网站数据收录，数据格式为[XML](http://en.wikipedia.org/wiki/XML)或者[JSON][json]，XML格式采用utf8编码，一般JSON库会将中文内容转换成unicode，可以忽略编码问题。未经unicode转换的，请采用utf8编码
 
 折街网专注于团购位置等服务，请提供准确的位置经纬度信息。由于各大地图提供商之间的经纬度有误差，我们暂时采用从[google地图](http://ditu.google.cn)获得的经纬度，[经纬度获取方法查看这里](/latlng/)。
 
@@ -16,6 +16,64 @@ title: 团购数据收录接口
 数据接口准备好后到 [这里申请](http://zhejie.wufoo.com/forms/ece/)
 
 ###数据示例 [查看字段描述](#desc)
+
+####XML格式
+
+	<?xml version="1.0" encoding="UTF-8"?> 
+	<response>
+		<deals>
+			<deal>
+				<id>bjwe</id>
+				<divisionName>北京</divisionName>
+				<title>仅售58元！原价130元的嘉佳羊蝎子双人套餐（小锅羊蝎子+香菇+面片+多种菜品任选5份+自制酸梅汤）。蒲安里/刘家窑两店通用。和美味的羊蝎子相比，吃相又算什么？</title>
+				<category>餐饮美食</category>
+				<isSoldOut>false</isSoldOut>
+				<soldQuantity>120</soldQuantity>
+				<quantity>0</quantity>
+				<url>http://bj.meituan.com/deal/253724.html</url>
+                        	<siteUrl>http://bj.meituan.com</siteUrl>
+				<smallImageUrl>http://p1.meituan.com/deal/201012/30/lthbxj00.jpg</smallImageUrl>
+				<mediumImageUrl>http://p1.meituan.com/deal/201012/30/lthbxj00.jpg</mediumImageUrl>
+				<largeImageUrl>http://p1.meituan.com/deal/201012/30/lthbxj00.jpg</largeImageUrl>
+				<tippedAt>1301147806</tippedAt>
+				<tippingPoint>400</tippingPoint>
+				<isTipped>true</isTipped>
+				<startAt>1301149806</startAt>
+				<endAt>1301147806</endAt>
+				<expiresAt>1301157806</expiresAt>
+				<price>200</price>
+				<value>500</value>
+				<details><![CDATA[ 有效期3个月， 2011.3.22 至 2011.6.22;营业时间：10:30-22:00;请至少提前1天致电预约 ]]> </details>
+				<postRequired>false</postRequired>
+				<merchantName>嘉佳羊蝎子</merchantName>
+				<merchantUrl>http://www.jjyxz.com</merchantUrl>
+				<locations>
+					<location>
+						<name>嘉佳羊蝎子(刘家窑店)</name>
+						<address>北京市丰台区东铁营215号</address>
+						<lat>39.904667</lat>
+						<lng>116.408198</lng>
+						<mapUrl>http://ditu.google.cn/maps/ms?ie=UTF8&hl=zh-CN&msa=0&msid=204433898138981275802.00049ebe9a5d539b83f1d&brcurrent=3,0x31508e64e5c642c1:0x951daa7c349f366f,1%3B5,0,1&ll=39.856124,116.420231&spn=0.038084,0.055189&z=14&iwloc=00049ebe9ecb8ebf8e663</mapUrl>
+						<dpShopId>4562008</dpShopId>
+						<tel>010-12345678</tel>
+						<mobile>138123456789</mobile>
+					</location>
+					<location>
+						<name>嘉佳羊蝎子(蒲安里店)</name>
+						<address>北京市丰台区蒲安里4号楼</address>
+						<lat>39.904667</lat>
+						<lng>116.408198</lng>
+						<mapUrl>http://ditu.google.cn/maps/ms?ie=UTF8&hl=zh-CN&msa=0&msid=204433898138981275802.00049ebe9a5d539b83f1d&brcurrent=3,0x31508e64e5c642c1:0x951daa7c349f366f,1%3B5,0,1&ll=39.856124,116.420231&spn=0.038084,0.055189&z=14&iwloc=00049ebe9ecb8ebf8e663</mapUrl>
+						<dpShopId>3632377</dpShopId>
+						<tel>010-12345678</tel>
+						<mobile>138123456789</mobile>
+					</location>
+				</locations>
+			</deal>
+		</deals>
+	</response>
+
+####JSON格式
 	
 	{
 	  "deals": [{
@@ -45,7 +103,7 @@ title: 团购数据收录接口
 			"merchantUrl": "http://www.jjyxz.com",
 			"locations":[
 				{
-					name: "嘉佳羊蝎子(刘家窑店)", 
+					"name": "嘉佳羊蝎子(刘家窑店)", 
 					"address": "北京市丰台区东铁营215号", 
 					"lat": 39.904667, 
 					"lng": 116.408198, 
@@ -55,7 +113,7 @@ title: 团购数据收录接口
 					"mobile": "138123456789"
 				},
 				{
-					name: "嘉佳羊蝎子(蒲安里店)", 
+					"name": "嘉佳羊蝎子(蒲安里店)", 
 					"address": "北京市丰台区蒲安里4号楼", 
 					"lat": 39.904667, 
 					"lng": 116.408198, 
