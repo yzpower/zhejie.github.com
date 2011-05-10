@@ -98,7 +98,7 @@ details			|String		|备注资料(多条可使用回车换行)
 postRequired		|Boolean	|是否需要邮寄，默认不需要
 merchantName		|String		|必需，团购提供商名称
 merchantUrl		|String		|团购提供商网址
-locations		|Array		|重要，位置，可有多个，网站默认按照位置远近排序，网购类可以不填(将在分类和搜索中显示)
+locations		|Array		|重要，各分店位置，可有多个，网站默认按照位置远近排序，网购类可以不填(将在分类和搜索中显示)
 
 ###位置参数说明
 
