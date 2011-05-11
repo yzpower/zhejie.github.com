@@ -177,6 +177,11 @@ tel			|String		|固定电话
 mobile			|String		|移动电话
 
 
+###插件
+
+最土网团购程序请参考 [折街网数据收录 (最土网API插件)](/zuituapi/)
+
+
 [ISO_8601]: http://zh.wikipedia.org/zh-cn/ISO_8601
 [json]: http://json.org
 
