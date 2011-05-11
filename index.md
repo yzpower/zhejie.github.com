@@ -31,6 +31,7 @@ title: 团购数据收录接口
 				<soldQuantity>120</soldQuantity>
 				<quantity>0</quantity>
 				<url>http://bj.meituan.com/deal/253724.html</url>
+                        	<siteName>美团北京站</siteName>
                         	<siteUrl>http://bj.meituan.com</siteUrl>
 				<smallImageUrl>http://p1.meituan.com/deal/201012/30/lthbxj00.jpg</smallImageUrl>
 				<mediumImageUrl>http://p1.meituan.com/deal/201012/30/lthbxj00.jpg</mediumImageUrl>
@@ -85,6 +86,7 @@ title: 团购数据收录接口
 			"soldQuantity": 120,
 			"quantity": 0,
 			"url": "http://bj.meituan.com/deal/253724.html",
+			"siteName": "美团北京站",
 			"siteUrl": "http://bj.meituan.com",
 			"smallImageUrl": "http://p1.meituan.com/deal/201012/30/lthbxj00.jpg", //5:3 120x72
 			"mediumImageUrl": "http://p1.meituan.com/deal/201012/30/lthbxj00.jpg",//200x120 
@@ -140,6 +142,7 @@ isSoldOut		|Boolean	|必需，是否已售完
 soldQuantity		|Number		|必需，卖出数量	
 quantity		|Number		|必需，商品总量，无限量为0	
 url			|String		|必需，此商品链接，采用商品唯一链接
+siteName		|String		|该商品所链接的分站名称，没有则默认为网站名称
 siteUrl			|String		|该商品所链接的分站地址，没有则默认为网站首页地址
 smallImageUrl		|String		|小图片地址(约120x72像素)
 mediumImageUrl		|String		|必需，一般图片地址(约200x120像素，供iphone等手机设备显示)
