@@ -137,7 +137,7 @@ title: 团购数据收录接口
 id			|String		|必需，团购唯一ID
 divisionName		|String		|必需，团购区域名称（国内城市名称，网购类可写"全国"）
 title			|String		|必需，团购显示标题(140字内)
-category		|String		|分类: 餐饮美食,休闲娱乐,运动健身,教育培训,旅游酒店,美容保健,医疗健康,便民服务,车辆服务,网上购物,开心抽奖。[分类信息参考口碑网](http://bendi.koubei.com/beijing/searchstore)	
+category		|String		|分类: 餐饮美食,休闲娱乐,运动健身,教育培训,旅游酒店,美容保健,医疗健康,便民服务,车辆服务,时尚购物,开心抽奖。[分类信息参考口碑网](http://bendi.koubei.com/beijing/searchstore)	
 isSoldOut		|Boolean	|必需，是否已售完	
 soldQuantity		|Number		|必需，卖出数量	
 quantity		|Number		|必需，商品总量，无限量为0	
