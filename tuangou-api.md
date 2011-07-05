@@ -114,7 +114,7 @@ group			|String		|分类分组
 
 	GET /deal/${id}.json
 	GET /deals.json?division=bj&cate=美食&perPage=10&page=1
-	division: 团购区域，自动定位，例如：beijing,Beijing,北京,北京市
+	division: 团购区域，自动定位，可能有如下几种情况，需自行判断：beijing,Beijing,北京,北京市
 
 ####返回失败数据示例
 
