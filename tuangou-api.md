@@ -63,7 +63,7 @@ timezoneOffsetInSeconds	|Number		|标准时差偏移
 
 团购分类
 
-	GET /categories.json
+	GET /categories.json?division=beijing
 
 
 ####返回失败数据示例
