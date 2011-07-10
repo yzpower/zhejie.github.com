@@ -112,7 +112,7 @@ group			|String		|分类分组
 
 某区域团购列表
 
-	GET /deal/${id}.json
+	GET /deals/${id}.json //单个团购信息
 	GET /deals.json?division=bj&cate=美食&perPage=10&page=1
 	division: 团购区域，自动定位，可能有如下几种情况，需自行判断：beijing,Beijing,北京,北京市
 
@@ -281,7 +281,6 @@ phoneNumber		|String		|固定电话 填写有效电话，方便手机直接拨�
 			"mediumImageUrl": "http://p0.meituan.net/120.76/deal/201105/31/1_0531185216.jpg",
 			"largeImageUrl": "http://p0.meituan.net/120.76/deal/201105/31/1_0531185216.jpg",
 			"locations": []
-			"deal": {}
 		}]
 	}
 	
