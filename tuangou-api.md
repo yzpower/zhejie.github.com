@@ -152,12 +152,12 @@ group			|String		|分类分组
 			"smallImageUrl": "http://p1.meituan.com/deal/201012/30/lthbxj00.jpg", //5:3 120x72
 			"mediumImageUrl": "http://p1.meituan.com/deal/201012/30/lthbxj00.jpg",//200x120 
 			"largeImageUrl": "http://p1.meituan.com/deal/201012/30/lthbxj00.jpg",//440x264
-			"tippedAt": "1301147806",
+			"tippedAt": 1301147806,
 			"tippingPoint": 400,
 			"isTipped": true,
-			"startAt": "1301149806",
-			"endAt": "1301147806",
-			"expiresAt": "1301157806",
+			"startAt": 1301149806,
+			"endAt": 1301147806,
+			"expiresAt": 1301157806,
 			"price": 200,
 			"value": 500,
 			"discountPercent": 30,
@@ -221,11 +221,11 @@ smallImageUrl		|String		|小图片地址(约120x72像素)
 mediumImageUrl		|String		|必需，一般图片地址(约200x120像素，供iphone等手机设备显示)
 largeImageUrl		|String		|必需，大图片地址(约440x264像素，供电脑,iPad显示)
 isTipped		|Boolean	|是否超过最低团购数
-tippedAt		|String		|超过最低团购数时间
+tippedAt		|Number		|超过最低团购数时间
 tippingPoint		|Number		|最低团购数量
-startAt			|String		|必需，团购开始时间
-endAt			|String		|必需，团购结束时间
-expiresAt		|String		|团购的商品过期
+startAt			|Number		|必需，团购开始时间
+endAt			|Number		|必需，团购结束时间
+expiresAt		|Number		|团购的商品过期
 price			|Number		|必需，团购价格	
 value			|Number		|必需，商品实际价格	
 discountPercent		|Number		|必需，折扣率(price\*100/value)	
@@ -294,9 +294,9 @@ title			|String		|必需，团购卷标题
 code			|String		|团购券密码
 orderId			|String		|订单id
 purchaseStatus		|String		|购买状态
-purchaseAt		|String		|购买时间
+purchaseAt		|Number		|购买时间
 isUsed			|Boolean	|是否已使用
-usedAt			|String		|使用时间
+usedAt			|Number		|使用时间
 dealId			|String		|团购id
 smallImageUrl		|String
 mediumImageUrl		|String
