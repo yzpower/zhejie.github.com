@@ -228,7 +228,7 @@ endAt			|String		|必需，团购结束时间
 expiresAt		|String		|团购的商品过期
 price			|Number		|必需，团购价格	
 value			|Number		|必需，商品实际价格	
-discountPercent		|Number		|必需，折扣率(value\*100/price)	
+discountPercent		|Number		|必需，折扣率(price\*100/value)	
 details			|String		|提示资料(html)
 highlightsHtml		|String		|产品亮点特色(html)
 pitchHtml		|String		|产品详情内容(html)
