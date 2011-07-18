@@ -63,6 +63,8 @@ timezoneOffsetInSeconds	|Number		|标准时差偏移
 
 团购分类
 
+按照分类过滤当前商品
+
 	GET /categories.json?division=beijing
 
 
@@ -111,6 +113,8 @@ group			|String		|分类分组
 ###Deals 
 
 某区域团购列表
+
+仅仅显示可购买的团购
 
 	GET /deals/${id}.json //单个团购信息
 	GET /deals.json?division=bj&cate=美食&perPage=10&page=1
