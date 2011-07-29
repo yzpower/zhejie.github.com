@@ -257,10 +257,10 @@ phoneNumber		|String		|固定电话 填写有效电话，方便手机直接拨�
 
 团购券
 
-	GET /coupons.json?perPage=10&page=1&filter=used&sort=new
+	GET /coupons.json?perPage=10&page=1&filter=used&sort=new&lat=35.1124234&lng=117.34243
 	params
 		filter: used|unused
-		sort:	createdAt|expiresAt
+		sort:	createdAt|expiresAt|distance
 
 ####返回失败数据示例
 
@@ -284,6 +284,8 @@ phoneNumber		|String		|固定电话 填写有效电话，方便手机直接拨�
 			"smallImageUrl": "http://p0.meituan.net/120.76/deal/201105/31/1_0531185216.jpg",
 			"mediumImageUrl": "http://p0.meituan.net/120.76/deal/201105/31/1_0531185216.jpg",
 			"largeImageUrl": "http://p0.meituan.net/120.76/deal/201105/31/1_0531185216.jpg",
+			"distance": 0.3,
+			"range": "朝阳区",
 			"locations": []
 		}]
 	}
@@ -305,6 +307,8 @@ dealId			|String		|团购id
 smallImageUrl		|String
 mediumImageUrl		|String
 largeImageUrl		|String
+distance		|Number		|距离，无距离时为null
+range			|String		|地区热点
 locations		|Array		|位置
 
 
