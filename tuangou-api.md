@@ -291,7 +291,7 @@ phoneNumber		|String		|固定电话 填写有效电话，方便手机直接拨�
 	}
 	
 <div name="coupondesc" id="coupondesc"></div>
-####Division字段说明
+####Coupon字段说明
 
 属性			|类型		|描述	
 ------------------------|---------------|-----------
