@@ -257,7 +257,7 @@ phoneNumber		|String		|固定电话 填写有效电话，方便手机直接拨�
 
 团购券
 
-	GET /coupons.json?perPage=10&page=1&filter=used&sort=new&lat=35.1124234&lng=117.34243
+	GET /coupons.json?perPage=10&page=1&filter=used&sort=createdAt&lat=35.1124234&lng=117.34243
 	params
 		filter: used|unused
 		sort:	createdAt|expiresAt|distance
